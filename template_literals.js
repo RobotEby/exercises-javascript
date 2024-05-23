@@ -1,3 +1,5 @@
+// Template literals
+
 const Marca = 'PNY'
 const Modelo = 'VCNRTXA6000-PB';
 const Arquitetura = 'NVIDIA Ampere';
