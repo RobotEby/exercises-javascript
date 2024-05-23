@@ -1,43 +1,62 @@
-const num1 = 1;
-const num2 = 2;
+// Exercício 1
 
-console.log(num1 + num2);
-console.log(num1 - num2);
-console.log(num1 * num2);
-console.log(num1 / num2);
-console.log(num1 % num2);
+// Elabore alguns códigos e imprima o resultado no console usando o console.log, um para cada operação aritmética básica. É necessário que seu código tenha duas variáveis, num1 e num2, definidas no começo com os valores que serão operados. Escreva códigos para:
+let num1 = 10;
+let num2 = 5;
 
-let firstNumber = 10;
-let secondNumber = 20;
+console.log('Soma: ' + (num1 + num2));
+console.log('Subtração: ' + (num1 - num2));
+console.log('Multiplicação: ' + (num1 * num2));
+console.log('Divisão: ' + (num1 / num2));
+console.log('Módulo: ' + (num1 % num2));
 
-if (firstNumber > secondNumber) {
-    console.log(firstNumber);
+// Exercício 2
+
+// Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+let num3 = 20;
+let num4 = 21;
+
+if (num3 > num4) {
+  console.log(num3 + " é maior que " + num4);
+} else if (num3 === num4) {
+  console.log("Os números são iguais.");
 } else {
-    console.log(secondNumber);
-}
+  console.log(num3 + " é maior que " + num1);
+};
 
-const numberOne = 100;
-const numberTwo = 120;
-const numberThree = 130;
+// Exercício 3
 
-if (numberOne > numberTwo && numberTwo > numberThree) {
-    console.log(numberOne);
+// Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
+let num5 = 6;
+let num6 = 4;
+let num7 = 2;
+
+if (num5 > num6 && num5 > num7) {
+  console.log('O maior número é: ' + num5);
+} else if (num6 > num5 && num6 > num7) {
+  console.log('O maior número é: ' + num6);
+} else if (num7 > num5 && num7 > num6){
+  console.log('O maior número é: ' + num7);
 } else {
-    console.log(numberThree);
+  console.log('IIHH, tem números iguais!');
+};
+
+// Exercício 4
+
+// Utilize if...else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+let degreeAngleA = 65;
+let degreeAngleB = 100;
+let degreeAngleC = 15;
+
+let sumOfAngles = degreeAngleA + degreeAngleB + degreeAngleC;
+let allAnglesArePositives = degreeAngleA > 0 && degreeAngleB > 0 && degreeAngleC > 0;
+
+if (allAnglesArePositives){
+  if (sumOfAngles === 180) {
+    console.log(true);
+  } else {
+    console.log(false);
+  };
+} else {
+  console.log('Erro: ângulo inválido!');
 }
-
-function verifityTriangle(angle1, angle2, angle3) {
-    if (angle1 <= 0 || angle2 <= 0 || angle3 <= 0) {
-        return "Erro: Um ou mais ângulos são inválidos.";
-    } else if (angle1 + angle2 + angle3 === 180) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-const angle1 = 60;
-const angle2 = 60;
-const angle3 = 60;
-
-console.log(verifityTriangle( angle1, angle2, angle3));

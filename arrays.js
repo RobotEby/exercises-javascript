@@ -1,25 +1,10 @@
-const listColors = ['white', 'black', 'red', 'blue'];
+//  Exercício 1 
+// Altere o valor da variável menuServices para que ela passe a ter o valor “Serviços”. Isso deve ser feito através da variável menu.
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+const menuServices = menu[0];
+console.log(menuServices);
 
-// aqui podemos salvar o retorno do acesso ao índice do array em uma variável ou constante
-const storAge = listColors;
-console.log(listColors);
-
-// altera o valor de um elemento de um array
-listColors[0] = 'yellow';
-console.log(listColors);
-
-// unshift adiciona um novo valor de um elemento array no inicio da lista
-listColors.unshift('purple');
-console.log(listColors);
-
-// push adiciona um novo valor de um elemento array no final da lista
-listColors.push('green');
-console.log(listColors);
-
-// shift remove um valor de um elemento array no inicio da lista
-listColors.shift('purple');
-console.log(listColors);
-
-// pop remove um valor de um elemento array no final da lista
-listColors.pop('green');
-console.log(listColors);
+//  Exercício 2
+// Adicione o valor “Contato” no final do array menu.
+menu.push('Contato');
+console.log(menu);
