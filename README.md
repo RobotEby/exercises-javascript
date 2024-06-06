@@ -1,4 +1,4 @@
-Olá! Meu nome é MrRobot e estou embarcando em uma jornada emocionante de aprendizado em JavaScript. Nascido do desejo de expandir minhas habilidades no desenvolvimento web e abraçar novos desafios, estou comprometido em dominar esta linguagem versátil e poderosa.
+Olá! Meu nome é `MrRobot` e estou embarcando em uma jornada emocionante de aprendizado em `JavaScript`. Nascido do desejo de expandir minhas habilidades no desenvolvimento web e abraçar novos desafios, estou comprometido em dominar esta linguagem versátil e poderosa.
 O Que Espero Aprender em JavaScript:
 
 <ul>
@@ -19,4 +19,4 @@ O Que Espero Aprender em JavaScript:
 <li>Resolução de Problemas e Projetos Práticos: Por fim, estou determinado a aprimorar minhas habilidades de resolução de problemas através da prática regular e da conclusão de projetos práticos desafiadores.</ul>
 </ul>
 
-Estou animado para embarcar nesta jornada de aprendizado e ver como o domínio do JavaScript transformará minha abordagem ao desenvolvimento de software. Vamos aprender juntos!
+Estou animado para embarcar nesta jornada de aprendizado e ver como o domínio do `JavaScript` transformará minha abordagem ao desenvolvimento de software. Vamos aprender juntos!
